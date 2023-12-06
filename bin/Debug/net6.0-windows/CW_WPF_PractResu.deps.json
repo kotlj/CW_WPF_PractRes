@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CW_WPF_PractResu/1.0.0": {
+        "runtime": {
+          "CW_WPF_PractResu.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CW_WPF_PractResu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
