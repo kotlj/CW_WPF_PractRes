@@ -8,30 +8,33 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <FlowDocumentReader>
-            <FlowDocument >
+            <FlowDocument Background="Black" Foreground="White">
                 <Paragraph>
                     <Image Source="C:\Users\Admin\source\repos\CW_WPF_PractResu\ResImg.png" Stretch="None"/>
                 </Paragraph>
                 <Paragraph>
-                    Имя: Денис
+                    <Bold>Имя:</Bold> Денис
                 </Paragraph>
                 <Paragraph>
-                    Фамилия: Гуцул
+                    <Bold>Фамилия:</Bold> Гуцул
                 </Paragraph>
                 <Paragraph>
-                    Отчество: Александрович
+                    <Bold>Отчество:</Bold> Александрович
                 </Paragraph>
                 <Paragraph>
-                    Образование: Фронт-энд и Бэк-энд разработка; Академия ШАГ.
+                    <Bold>Образование:</Bold> Фронт-энд и Бэк-энд разработка; Академия ШАГ.
                 </Paragraph>
                 <Paragraph>
-                    Опыт работы: Практики и коммандные проекты за время обучения.
+                    <Bold>Опыт работы:</Bold> Практики и коммандные проекты за время обучения.
                 </Paragraph>
                 <Paragraph>
-                    Краткое описание: Характер твердый, не женат, пародирует остров сокровищь.
+                    <Bold>Краткое описание:</Bold> Характер твердый, не женат, пародирует остров сокровищь.
                 </Paragraph>
                 <Paragraph>
-                    Работы: *много сылок?*
+                    <Bold>Работы:</Bold> 
+                    <Hyperlink>
+                        <Bold>*много сылок?*</Bold>
+                    </Hyperlink>
                 </Paragraph>
             </FlowDocument>
         </FlowDocumentReader>
